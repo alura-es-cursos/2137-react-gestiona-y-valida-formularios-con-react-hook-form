@@ -16,6 +16,15 @@ const PersonalRegistration = () => {
     console.log(data)
   }
 
+  function emailValidation(value: string) {
+    const emailFormat = /^[^\s@]+@alura\.com$/
+    if (!emailFormat.test(value)) {
+      console.error('Correo electrónico inválido para este dominio')
+      return false
+    }
+    return true
+  }
+
   return (
     <>
       <Title>Ingresa algunos datos básicos:</Title>
@@ -26,7 +35,7 @@ const PersonalRegistration = () => {
             id="field-name"
             placeholder="Escribe tu nombre completo"
             type="text"
-            {...register('name')}
+            {...register('name', { required: true, minLength: 5 })}
           />
         </Fieldset>
         <Fieldset>
@@ -35,7 +44,10 @@ const PersonalRegistration = () => {
             id="field-email"
             placeholder="Ingresa tu dirección de correo electrónico"
             type="email"
-            {...register('email')}
+            {...register('email', {
+              required: true,
+              validate: emailValidation
+            })}
           />
         </Fieldset>
 
