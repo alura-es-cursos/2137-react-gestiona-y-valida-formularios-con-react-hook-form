@@ -1,10 +1,11 @@
 import { Logo } from '../../components'
-import AddressRegistration from './AdressRegistration'
+
+import PersonalRegistration from './PersonalRegistration'
 export default function Registration() {
   return (
     <>
       <Logo />
-      <AddressRegistration />
+      <PersonalRegistration />
     </>
   )
 }
