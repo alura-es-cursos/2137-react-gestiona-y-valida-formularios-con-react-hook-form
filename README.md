@@ -1,4 +1,4 @@
-![Voll](thumb.png)
+![Voll](thumb.webp)
 
 # Voll
 
@@ -13,7 +13,7 @@ En esta etapa de desarrollo, Voll cuenta con las siguientes funcionalidades:
 - Formulario de registro de pacientes.
 - Formulario de registro de médicos especialistas.
 
-El [Figma de esta aplicación lo encuentras aquí](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design).
+El [Figma de esta aplicación lo encuentras aquí](https://www.figma.com/design/7PQckiy1039gq2d7EYBMJJ/2137---Validaci%C3%B3n-de-formularios-con-React-Hook-Form?node-id=0-1&p=f&t=sNeieptLtn5KvORN-0).
 
 ## ✔️ Tecnologías utilizadas
 
@@ -41,7 +41,7 @@ Para ejecutar el proyecto Voll en tu entorno local, sigue estos pasos:
 
 ```bash
 cd react-forms
-```  
+```
 
 5. Instala las dependencias usando npm, yarn o pnpm:
 
@@ -63,10 +63,18 @@ pnpm install
 npm run dev
 ```
 
+```bash
+yarn run dev
+```
+
+```bash
+pnpm run dev
+```
+
 ## 📚 Más información sobre el curso
 
 ¿Te gustó el proyecto y quieres saber más?
 
-El diseño y prototipo de este proyecto se pueden encontrar [aqui](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design). Si deseas continuar aprendiendo más sobre React, te recomiendo los cursos que tenemos disponibles [Cursos React](https://www.aluracursos.com/cursos-online-front-end)
+El diseño y prototipo de este proyecto se pueden encontrar [aqui](https://www.figma.com/design/7PQckiy1039gq2d7EYBMJJ/2137---Validaci%C3%B3n-de-formularios-con-React-Hook-Form?node-id=0-1&p=f&t=sNeieptLtn5KvORN-0). Si deseas continuar aprendiendo más sobre React, te recomiendo los cursos que tenemos disponibles [Cursos React](https://www.aluracursos.com/cursos-online-front-end)
 
 Disfruta del desarrollo y mejora de Voll!
