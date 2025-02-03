@@ -1,4 +1,4 @@
-![Voll](thumb.png)
+![Voll](thumb.webp)
 
 # Voll
 
@@ -61,6 +61,14 @@ pnpm install
 
 ```bash
 npm run dev
+```
+
+```bash
+yarn run dev
+```
+
+```bash
+pnpm run dev
 ```
 
 ## 📚 Más información sobre el curso

@@ -147,6 +147,7 @@ const PersonalRegistration = () => {
             id="field-confirm-password"
             placeholder="Repite la contraseña anterior"
             type="password"
+            $error={!!errors.confirmedPassword}
             {...register('confirmedPassword', {
               required: 'Debe repetir la contraseña',
               validate: validatePassword,
